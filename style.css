@@ -99,6 +99,10 @@ nav a:hover {
   z-index: 3;
   position: relative;
 }
+.hero a,.parent-about a{
+  text-decoration: none;
+  color: #361f13;
+}
 .hero h1 {
   font-size: 55px;
   font-weight: 700;
@@ -824,7 +828,8 @@ main {
     font-size: 18px;
   }
   .hero{
-    top: 5vh;
+    margin-top: none;
+    top: 10vh;
   }
  .contact-card{
   width: 100%;
